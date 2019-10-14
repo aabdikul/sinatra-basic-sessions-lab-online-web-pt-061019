@@ -15,7 +15,6 @@ class App < Sinatra::Base
     @session = session
     @session << params[:item]
     params[:item]
-    erb :purchased_item
   end
 
 end
